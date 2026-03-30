@@ -31,4 +31,4 @@ A aplicação utiliza a API pública:
 
 - 🌐 https://pokeapi.co/
 
----
+-------------------------
