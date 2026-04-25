@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0">
+  <diagram name="Página-1" id="tHWK-hDtnddDrYKW1Sc-">
+    <mxGraphModel dx="990" dy="1167" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-40" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="785.5" width="2268" x="1050" y="453" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-1" parent="ADazz7ix8fgCaq-q5FZG-40" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=39;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;container=0;" value="PokeAPI&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&amp;lt;&amp;lt;external&amp;gt;&amp;gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="78" width="335" x="1472.5" y="707.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-2" parent="ADazz7ix8fgCaq-q5FZG-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;container=0;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;+ getPokemonAleatorio(): List&amp;lt;int&amp;gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="39" width="335" y="39" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-3" edge="1" parent="ADazz7ix8fgCaq-q5FZG-40" source="ADazz7ix8fgCaq-q5FZG-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.012;entryY=-0.032;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;" target="ADazz7ix8fgCaq-q5FZG-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="168.5" y="39.973480224609375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-4" parent="ADazz7ix8fgCaq-q5FZG-40" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=45;fillColor=default;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="CartasController&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&amp;lt;&amp;lt;controller&amp;gt;&amp;gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="104" width="335" y="353.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-5" parent="ADazz7ix8fgCaq-q5FZG-4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ consultarCartas(idJogador: long): List&amp;lt;int&amp;gt;" vertex="1">
+          <mxGeometry height="26" width="335" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-6" parent="ADazz7ix8fgCaq-q5FZG-4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ requisicaoTroca(dadosTroca: TrocasResquestDTO): bool" vertex="1">
+          <mxGeometry height="33" width="335" y="71" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-7" edge="1" parent="ADazz7ix8fgCaq-q5FZG-40" source="ADazz7ix8fgCaq-q5FZG-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;entryX=-0.001;entryY=0.041;entryDx=0;entryDy=0;entryPerimeter=0;" target="ADazz7ix8fgCaq-q5FZG-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1640" y="662.9000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-8" parent="ADazz7ix8fgCaq-q5FZG-40" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=38;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="DistribuicaoService" vertex="1">
+          <mxGeometry height="79" width="333" x="1473.5" y="548.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-9" parent="ADazz7ix8fgCaq-q5FZG-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ distribuirCartas(idJogador: long): void" vertex="1">
+          <mxGeometry height="41" width="333" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-10" edge="1" parent="ADazz7ix8fgCaq-q5FZG-40" source="ADazz7ix8fgCaq-q5FZG-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.503;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;" target="ADazz7ix8fgCaq-q5FZG-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1642" y="548.5" />
+              <mxPoint x="1642" y="513.5" />
+              <mxPoint x="1641" y="513.5" />
+            </Array>
+            <mxPoint x="1616.8310000000001" y="470.3319999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-11" edge="1" parent="ADazz7ix8fgCaq-q5FZG-40" source="ADazz7ix8fgCaq-q5FZG-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="ADazz7ix8fgCaq-q5FZG-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2073" y="639.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-12" parent="ADazz7ix8fgCaq-q5FZG-40" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=45;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="DistribuicaoController&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&amp;lt;&amp;lt;controller&amp;gt;&amp;gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="82" width="378" x="1890" y="703.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-13" parent="ADazz7ix8fgCaq-q5FZG-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ distribuirCartas(idJogador: long): void" vertex="1">
+          <mxGeometry height="37" width="378" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-14" edge="1" parent="ADazz7ix8fgCaq-q5FZG-40" source="ADazz7ix8fgCaq-q5FZG-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;entryX=1.002;entryY=0.026;entryDx=0;entryDy=0;entryPerimeter=0;" target="ADazz7ix8fgCaq-q5FZG-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860.0551452636719" y="377.2044721330917" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-15" parent="ADazz7ix8fgCaq-q5FZG-40" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=32;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="CartasService" vertex="1">
+          <mxGeometry height="96" width="335" x="988" y="353.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-16" parent="ADazz7ix8fgCaq-q5FZG-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ consultarCartas(idJogador: long): List&amp;lt;int&amp;gt;" vertex="1">
+          <mxGeometry height="26" width="335" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-17" parent="ADazz7ix8fgCaq-q5FZG-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ requisicaoTroca(dadosTroca: TrocasResquestDTO): bool" vertex="1">
+          <mxGeometry height="38" width="335" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-18" edge="1" parent="ADazz7ix8fgCaq-q5FZG-40" source="ADazz7ix8fgCaq-q5FZG-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.082;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=open;startFill=0;endArrow=none;endFill=0;dashed=1;" target="ADazz7ix8fgCaq-q5FZG-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1317" y="353.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-19" parent="ADazz7ix8fgCaq-q5FZG-40" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=47;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;font&gt;CartasRepository&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&amp;lt;&amp;lt;repository&amp;gt;&amp;gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="170" width="378" x="1451" y="115.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-20" parent="ADazz7ix8fgCaq-q5FZG-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- db: DatabaseConnection" vertex="1">
+          <mxGeometry height="26" width="378" y="47" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-21" parent="ADazz7ix8fgCaq-q5FZG-19" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;container=0;" value="" vertex="1">
+          <mxGeometry height="19" width="378" y="73" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-22" parent="ADazz7ix8fgCaq-q5FZG-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ consultarCartas(idJogador: long): List&amp;lt;int&amp;gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="378" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-23" parent="ADazz7ix8fgCaq-q5FZG-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ adicionarCartas(idJogador: long, idsPokemon: List&amp;lt;int&amp;gt;)" vertex="1">
+          <mxGeometry height="26" width="378" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-24" parent="ADazz7ix8fgCaq-q5FZG-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ removerCartas(idJogador: long, idsPokemon: List&amp;lt;int&amp;gt;)" vertex="1">
+          <mxGeometry height="26" width="378" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-25" edge="1" parent="ADazz7ix8fgCaq-q5FZG-40" source="ADazz7ix8fgCaq-q5FZG-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;startArrow=block;startFill=0;" target="ADazz7ix8fgCaq-q5FZG-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-26" parent="ADazz7ix8fgCaq-q5FZG-40" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=47;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;font&gt;InterfaceCartasRepository&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="125" width="380" x="1450" y="353.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-27" parent="ADazz7ix8fgCaq-q5FZG-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ consultarCartas(idJogador: long): List&amp;lt;int&amp;gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="380" y="47" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-28" parent="ADazz7ix8fgCaq-q5FZG-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ adicionarCartas(idJogador: long, idsPokemon: List&amp;lt;int&amp;gt;): bool" vertex="1">
+          <mxGeometry height="26" width="380" y="73" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-29" parent="ADazz7ix8fgCaq-q5FZG-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ removerCartas(idJogador: long, idsPokemon: List&amp;lt;int&amp;gt;): bool" vertex="1">
+          <mxGeometry height="26" width="380" y="99" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-30" edge="1" parent="ADazz7ix8fgCaq-q5FZG-40" source="ADazz7ix8fgCaq-q5FZG-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="133.91289265950536" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-31" parent="ADazz7ix8fgCaq-q5FZG-40" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=47;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;font&gt;InterfaceCartasService&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="112" width="380" x="471" y="353.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-32" parent="ADazz7ix8fgCaq-q5FZG-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ consultarCartas(idJogador: long): List&amp;lt;int&amp;gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;+ requisicaoTroca(dadosTroca: TrocasResquestDTO): bool&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="65" width="380" y="47" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-33" edge="1" parent="ADazz7ix8fgCaq-q5FZG-40" source="ADazz7ix8fgCaq-q5FZG-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" target="ADazz7ix8fgCaq-q5FZG-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-34" parent="ADazz7ix8fgCaq-q5FZG-40" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=47;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;font&gt;InterfaceDistribuicaoService&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="88" width="380" x="1888" y="539.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-35" parent="ADazz7ix8fgCaq-q5FZG-34" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ distribuirCartas(idJogador: long): void" vertex="1">
+          <mxGeometry height="41" width="380" y="47" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-36" parent="ADazz7ix8fgCaq-q5FZG-40" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=47;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;font&gt;TrocasRequestDTO&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&amp;lt;&amp;lt;DTO&amp;gt;&amp;gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="125" width="380" x="457" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-37" parent="ADazz7ix8fgCaq-q5FZG-36" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- idJogadorOrigem: long&lt;div&gt;- idJogadorDestino: long&lt;/div&gt;&lt;div&gt;- idsPokemonsRecebidos: List&amp;lt;int&amp;gt;&lt;/div&gt;&lt;div&gt;- idsPokemonsEnviados: List&amp;lt;int&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="78" width="380" y="47" as="geometry" />
+        </mxCell>
+        <mxCell id="ADazz7ix8fgCaq-q5FZG-38" edge="1" parent="ADazz7ix8fgCaq-q5FZG-40" source="ADazz7ix8fgCaq-q5FZG-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.457;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;" target="ADazz7ix8fgCaq-q5FZG-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
